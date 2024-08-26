@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-st.title("Interactive Data Visualization Tool with AI-Powered Insights")
+st.title("Interactive Data Visualization Tool")
 st.write("Upload your dataset to explore and visualize the data.")
 
 uploaded_file = st.file_uploader("Upload your CSV file", type=["csv"])
@@ -36,7 +36,7 @@ if uploaded_file is not None:
                                       "Data Summary"])
 
     # Select columns for x and y axes
-    if plot_type not in ["Histogram", "Pie Chart", "Heatmap", "Pair Plot", "Correlation Matrix", "Data Summary"]:
+    if plot_type not in ["Histogram", "Pair Plot", "Correlation Matrix", "Data Summary"]:
         x_column = st.sidebar.selectbox("Select X-axis", df.columns)
         y_column = st.sidebar.selectbox("Select Y-axis", df.columns)
     
