@@ -1,5 +1,6 @@
 # Interactive Data Visualization Tool With StreamLit
 It is a powerful Streamlit application designed to help you explore, visualize, and gain insights from your datasets. Whether you're a data scientist, analyst, or just someone interested in making sense of data, this tool provides an intuitive interface to create various visualizations and extract AI-powered insights with just a few clicks.
+![image](https://github.com/user-attachments/assets/de6d4312-6aa6-4e3a-8634-daefdfb82aa1)
 ## Features
 ### 📊 Data Visualization
 **Scatter Plot: Explore relationships between two numerical variables.**
